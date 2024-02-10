@@ -5,8 +5,9 @@ class Images {
   // static const String location = 'assets/icon/location.png';
 
   // for Image
-  // static const String arabic = 'assets/image/arabic.png';
-  // static const String unitedKingdom = 'assets/image/united_kindom.png';
-  // static const String done = 'assets/icon/done.png';
+  static const String splashImage = 'assets/images/love.png';
+  static const String onboard_1 = 'assets/images/onb1.jpg';
+  static const String onboard_2 = 'assets/images/onb1.jpg';
+  static const String onboard_3 = 'assets/images/onb1.jpg';
 
 }
