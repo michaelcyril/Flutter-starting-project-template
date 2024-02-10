@@ -10,7 +10,7 @@ class DateConverter {
     DateTime date = DateTime.parse(dateString);
     return DateFormat('MM/dd/yyyy').format(date);
   }
-
+  // hfhhf
   static String formatChatTime(DateTime timestamp) {
     DateTime now = DateTime.now();
     Duration difference = now.difference(timestamp);
