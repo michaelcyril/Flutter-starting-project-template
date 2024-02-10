@@ -10,7 +10,6 @@ class DateConverter {
     DateTime date = DateTime.parse(dateString);
     return DateFormat('MM/dd/yyyy').format(date);
   }
-  //fjjf
 
   static String formatChatTime(DateTime timestamp) {
     DateTime now = DateTime.now();
