@@ -2,9 +2,9 @@ import 'package:flutter/widgets.dart';
 import 'package:top_snackbar_flutter/custom_snack_bar.dart';
 import 'package:top_snackbar_flutter/top_snack_bar.dart';
 
-class SnackBar {
+class SnackBars {
   final BuildContext ctx;
-  SnackBar({required this.ctx});
+  SnackBars({required this.ctx});
 
   infoSnackBar(String message) {
     return showTopSnackBar(

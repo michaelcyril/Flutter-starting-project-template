@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class Dimensions {
   static const double fontSizeExtraSmall = 10.0;
   static const double fontSizeSmall = 12.0;
@@ -16,4 +18,11 @@ class Dimensions {
   static const double radiusDefault = 10.0;
   static const double radiusLarge = 15.0;
   static const double radiusExtraLarge = 20.0;
+
+  static double quarterScreenHeight(ctx){
+    return MediaQuery.of(ctx).size.height*0.25;
+  }
+  static double halfScreenHeight(ctx){
+    return MediaQuery.of(ctx).size.height*0.5;
+  }
 }

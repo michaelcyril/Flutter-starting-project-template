@@ -1,11 +1,10 @@
-
 class AppConstants {
-  // static const String appName = 'NAME';
-  // static const double appVersion = x.x;
+  static const String appName = 'Demo App';
+  static const double appVersion = 1.0;
 
-  // Shared Key
-  // static const String theme = 'theme';
-  // static const String userEmail = 'userEmail';
+  // Shared Preference Key
+  static const String token = 'token';
+  static const String user = 'user';
 
   // static List<LanguageModel> languages = [
   //   LanguageModel(imageUrl: Images.unitedKingdom, languageName: 'English', countryCode: 'US', languageCode: 'en'),
