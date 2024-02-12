@@ -1,8 +1,6 @@
 class Images {
   // for Icon
-  // static const String search = 'assets/icon/search.png';
-  // static const String doneWithFullBackground = 'assets/icon/done_with_full_background.png';
-  // static const String location = 'assets/icon/location.png';
+  static const String loveIcon = 'assets/icons/love.png';
 
   // for Image
   static const String splashImage = 'assets/images/love.png';
