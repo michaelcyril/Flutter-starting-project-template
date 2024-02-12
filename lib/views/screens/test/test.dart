@@ -22,7 +22,7 @@ class _TestScreenState extends State<TestScreen> {
     //Test Database
     final dbHelper = DBHelper();
     dbHelper.insertRecord({});
-    //Test SharedPreference
+    //Test SharedPreferences
     var sharedPref = SharedPreferencesManager();
     sharedPref.init();
     sharedPref.saveString(AppConstants.token, "iiiiiiiiiiiiiiiiiiiiiiii");
