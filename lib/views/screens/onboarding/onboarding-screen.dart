@@ -1,5 +1,8 @@
+// ignore_for_file: use_key_in_widget_constructors
+
 import 'package:flutter/material.dart';
-import 'package:flutter_project_template/main.dart';
+import 'package:flutter_project_template/constants/images.dart';
+import 'package:flutter_project_template/views/screens/menu/bottom_nav_bar.dart';
 import 'package:intro_screen_onboarding_flutter/intro_app.dart';
 
 class OnboardingScreen extends StatelessWidget {
@@ -7,17 +10,17 @@ class OnboardingScreen extends StatelessWidget {
     Introduction(
       title: 'Delivery',
       subTitle: 'Your order will be immediately collected and',
-      imageUrl: 'assets/images/onb1.jpg',
+      imageUrl: Images.onboard_1,
     ),
     Introduction(
       title: 'Receive Money',
       subTitle: 'Pick up delivery at your door and enjoy groceries',
-      imageUrl: 'assets/images/onb1.jpg',
+      imageUrl: Images.onboard_2,
     ),
     Introduction(
       title: 'Finish',
       subTitle: 'Browse the menu and order directly from the application',
-      imageUrl: 'assets/images/onb1.jpg',
+      imageUrl: Images.onboard_3,
     ),
   ];
 
@@ -28,11 +31,7 @@ class OnboardingScreen extends StatelessWidget {
       onTapSkipButton: () {
         Navigator.push(
           context,
-          MaterialPageRoute(
-            builder: (context) => const MyHomePage(
-              title: "dd",
-            ),
-          ),
+          MaterialPageRoute(builder: (context) => const BottomNavigationBarMenu()),
         );
       },
     );
